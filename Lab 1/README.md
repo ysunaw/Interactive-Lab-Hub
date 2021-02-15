@@ -49,51 +49,36 @@ E) [Costume the device](#part-e-costume-the-device)
 
 F) [Record the interaction](#part-f-record)
 
-## The Report
-This readme.md page in your own repository should be edited to include the work you have done. You can delete everything but the headers and the sections between the **stars**. Write the answers to the questions under the starred sentences. Include any material that explains what you did in this lab hub folder, and link it in the readme.
-
-Labs are due on Mondays. Make sure this page is linked to on your main class hub page.
-
+## Report
 ## Part A. Plan 
 
-To stage the interaction with your interactive device, think about:
-
-_Setting:_ Where is this interaction happening? (e.g., a jungle, the kitchen) When is it happening?
-
-_Players:_ Who is involved in the interaction? Who else is there? If you reflect on the design of current day interactive devices like the Amazon Alexa, it’s clear they didn’t take into account people who had roommates, or the presence of children. Think through all the people who are in the setting.
-
-_Activity:_ What is happening between the actors?
-
-_Goals:_ What are the goals of each player? (e.g., jumping to a tree, opening the fridge). 
-
-The interactive device can be anything *except* a computer, a tablet computer or a smart phone, but the main way it interacts needs to be using light.
 **Describe your setting, players, activity and goals here.**
+I am planning to design a smart medicine bottle that can gives sound and light effects to remind the person to take the medicine when it is time.  
+Settings: This interaction will take place in someone's home, usually at his own bedroom/study room where he puts his medicines. The interaction happens when the user needs to take his medicine on a regular basis, it could be at a certain time of a day or happens several times a day. 
+Player: There is only one player in this interaction - the user of the device. 
+Activity: The player need to interact with the device. When it reaches the time set before, the device would send sound and light signal; the player will get notified and then take the medicine. 
+Goal: The player's goal is to be reminded to keep healthy and take his medications on time. 
 
-Sketch a storyboard of the interactions you are planning. It does not need to be perfect, but must get across the behavior of the interactive device and the other characters in the scene. 
 **Include a picture of your storyboard here**
 
-Present your idea to the other people in your breakout room. You can just get feedback from one another or you can work together on the other parts of the lab.
 **Summarize feedback you got here.**
-
+1. I could make use of the color of the light to indicate what kind of pill I should take.
+2. I should also take into consideration of other people that might be living with this person. 
 
 ## Part B. Act out the Interaction
 
 Try physically acting out the interaction you planned. For now, you can just pretend the device is doing the things you’ve scripted for it. 
 
 **Are there things that seemed better on paper than acted out?**
-
+The actual interaction has good 
 **Are there new ideas that occur to you or your collaborators that come up from the acting?**
 
 
 ## Part C. Prototype the device
 
-You will be using your smartphone as a stand-in for the device you are prototyping. You will use the browser of your smart phone to act as a “light” and use a remote control interface to remotely change the light on that device. 
 
-Code for the "Tinkerbelle" tool, and instructions for setting up the server and your phone are [here](https://github.com/FAR-Lab/tinkerbelle).
-
-We invented this tool for this lab! 
 **Give us feedback on Tinkerbelle.**
-
+Tinkerbelle 
 ## Part D. Wizard the device
 Take a little time to set up the wizarding set-up that allows for someone to remotely control the device while someone acts with it. Hint: You can use Zoom to record videos, and you can pin someone’s video feed if that is the scene which you want to record. 
 
@@ -111,15 +96,15 @@ Think about the setting of the device: is the environment a place where the devi
 
 **Include sketches of what your device might look like here.**
 
-**What concerns or opportunitities are influencing the way you've designed the device to look?**
-
+**What concerns or opportunitities are influencing the way you've designed the device to look?**The user 
 
 ## Part F. Record
 
 **Take a video of your prototyped interaction.**
 
 **Please indicate anyone you collaborated with on this Lab.**
-Be generous in acknowledging their contributions! And also recognizing any other influences (e.g. from YouTube, Github, Twitter) that informed your design. 
+I collaborated with Charles Chen from Columbia University. He took the videos for me. 
+Renzhi, Panda and Wenqing offered great advice on my idea. 
 
 # Staging Interaction, Part 2 
 
