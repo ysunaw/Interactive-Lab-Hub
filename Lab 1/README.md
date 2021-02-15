@@ -60,6 +60,7 @@ Activity: The player need to interact with the device. When it reaches the time 
 Goal: The player's goal is to be reminded to keep healthy and take his medications on time. 
 
 **Include a picture of your storyboard here**
+![storyboard](storyboard.jpg)
 
 **Summarize feedback you got here.**
 1. I could make use of the color of the light to indicate what kind of pill I should take.
@@ -70,21 +71,19 @@ Goal: The player's goal is to be reminded to keep healthy and take his medicatio
 Try physically acting out the interaction you planned. For now, you can just pretend the device is doing the things you’ve scripted for it. 
 
 **Are there things that seemed better on paper than acted out?**
-The actual interaction has good 
+
 **Are there new ideas that occur to you or your collaborators that come up from the acting?**
 
 
 ## Part C. Prototype the device
 
-
 **Give us feedback on Tinkerbelle.**
-Tinkerbelle 
+Overall I think Tinkerbelle is very very simple and easy to use as an app prototype, with customizable fields suitable to my own needs. There could also be a lot of potential add-ons to it, such as displaying texts, pictures, etc. 
 ## Part D. Wizard the device
 Take a little time to set up the wizarding set-up that allows for someone to remotely control the device while someone acts with it. Hint: You can use Zoom to record videos, and you can pin someone’s video feed if that is the scene which you want to record. 
 
 **Include your first attempts at recording the set-up video here.**
-
-Now, hange the goal within the same setting, and update the interaction with the paper prototype. 
+![first-attempt](first_attempt.mov)
 
 **Show the follow-up work here.**
 
@@ -101,6 +100,7 @@ Think about the setting of the device: is the environment a place where the devi
 ## Part F. Record
 
 **Take a video of your prototyped interaction.**
+![final-attempt](lab1_final.mov)
 
 **Please indicate anyone you collaborated with on this Lab.**
 I collaborated with Charles Chen from Columbia University. He took the videos for me. 
