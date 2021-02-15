@@ -25,7 +25,7 @@ F) [Record the interaction](#part-f-record)
 ## Part A. Plan 
 
 **Describe your setting, players, activity and goals here.**
-I am planning to design a smart medicine bottle that can gives sound and light effects to remind the person to take the medicine when it is time.  
+I plan to design a smart medicine bottle that can gives sound and light effects to remind the person to take the medicine when it is time.  
 Settings: This interaction will take place in someone's home, usually at his own bedroom/study room where he puts his medicines. The interaction happens when the user needs to take his medicine on a regular basis, it could be at a certain time of a day or happens several times a day. 
 Player: There is only one player in this interaction - the user of the device. 
 Activity: The player need to interact with the device. When it reaches the time set before, the device would send sound and light signal; the player will get notified and then take the medicine. 
@@ -41,7 +41,7 @@ Goal: The player's goal is to be reminded to keep healthy and take his medicatio
 ## Part B. Act out the Interaction
 
 **Are there things that seemed better on paper than acted out?**
-
+The interaction was natural and seems better than paper. 
 **Are there new ideas that occur to you or your collaborators that come up from the acting?**
 
 
@@ -64,8 +64,9 @@ Only now should you start worrying about what the device should look like. Devel
 Think about the setting of the device: is the environment a place where the device could overheat? Is water a danger? Does it need to have bright colors in an emergency setting?
 
 **Include sketches of what your device might look like here.**
-
+![sketch](sketch.jpg)
 **What concerns or opportunitities are influencing the way you've designed the device to look?**
+I want the device to have a input field where the user could set up how many times a day he needs to take the medicine.  
 
 ## Part F. Record
 
