@@ -1,31 +1,3 @@
-
-
-# Staging Interaction
-
-In the original stage production of Peter Pan, Tinker Bell was represented by a darting light created by a small handheld mirror off-stage, reflecting a little circle of light from a powerful lamp. Tinkerbell communicates her presence through this light to the other characters. See more info [here](https://en.wikipedia.org/wiki/Tinker_Bell). 
-
-There is no actor that plays Tinkerbell--her existence in the play comes from the interactions that the other characters have with her.
-
-
-
-For lab this week, we draw on this and other inspirations from theatre to stage interactions with a device where the main mode of display/output for the interactive device you are designing is lighting. You will plot the interaction with a storyboard, and use your computer and a smartphone to experiment with what the interactions will look and feel like. _Make sure you read all the instructions and understand the whole of the laboratory activity before starting!_
-
-
-
-## Prep
-
-1. Set up [your Github "Lab Hub" repository](../../../) by [following these instructions](https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/blob/2021Spring/readings/Submitting%20Labs.md).
-2. Set up the README.md for your Hub repository (for instance, so that it has your name and points to your own Lab 1) and [learn how](https://guides.github.com/features/mastering-markdown/) to post links to your submissions on your readme.md so we can find them easily.
-
-### For lab, you will need:
-
-1. Paper
-1. Markers/ Pen
-1. Smart Phone--Main required feature is that the phone needs to have a browser and display a webpage.
-1. Computer--we will use your computer to host a webpage which also features controls
-1. Found objects and materials--you’ll have to costume your phone so that it looks like some other device. These materials can include doll clothes, a paper lantern, a bottle, human clothes, a pillow case. Be creative!
-1. Scissors
-
 ### Deliverables for this lab are: 
 1. Storyboard
 1. Sketches/photos of costumed device
@@ -68,8 +40,6 @@ Goal: The player's goal is to be reminded to keep healthy and take his medicatio
 
 ## Part B. Act out the Interaction
 
-Try physically acting out the interaction you planned. For now, you can just pretend the device is doing the things you’ve scripted for it. 
-
 **Are there things that seemed better on paper than acted out?**
 
 **Are there new ideas that occur to you or your collaborators that come up from the acting?**
@@ -95,7 +65,7 @@ Think about the setting of the device: is the environment a place where the devi
 
 **Include sketches of what your device might look like here.**
 
-**What concerns or opportunitities are influencing the way you've designed the device to look?**The user 
+**What concerns or opportunitities are influencing the way you've designed the device to look?**
 
 ## Part F. Record
 
