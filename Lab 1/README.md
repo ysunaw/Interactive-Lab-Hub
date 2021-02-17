@@ -75,7 +75,7 @@ I want the device to have a input field where the user could set up how many tim
 
 **Please indicate anyone you collaborated with on this Lab.**
 I collaborated with Charles Chen from Columbia University. He took the videos for me. 
-Renzhi, Panda and Wenqing offered great advice on my idea. 
+Renzhi, Panda, Songyu and Wenqing offered great advice on my idea. 
 
 # Staging Interaction, Part 2 
 
@@ -87,6 +87,26 @@ This describes the second week's work for this lab activity.
 You will be assigned three partners from another group. Go to their github pages, view their videos, and provide them with reactions, suggestions & feedback: explain to them what you saw happening in their video. Guess the scene and the goals of the character. Ask them about anything that wasn’t clear. 
 
 **Summarize feedback from your partners here.**
+**Renzhi Hu**
+What’s happening:
+The light device functions as a reminder to remind the user to take medications daily.
+The scene and the goals of the character:
+Scene: the user is working and possibly forgets to take daily medicines
+Goal: to be reminded when it’s time to take medication/supplements
+Anything that wasn’t clear:
+The prototype is shown in gifs instead of videos so the interactions are limited. I’d like to see more about what happens to the device in different circumstances. For instance, how the alarm is set, and how the light would be turned off when the user takes its medication.
+
+**Wenqing Tang**
+How will the light be turned off after the user took the pill? Maybe there will be a sensor inside?
+For 3 times a day, there could be many time settings, e.g. 3 AM, 11 AM and 7 PM - which no one will probably want to get up at 3 AM to take a pill. So I suggest you may add an input for the start time on the device.
+
+**Songyu Du**
+In your illustration, the person is wearing the ID card to face towards others, so the person might not see the light himself. Will it be better if you change the user story, instead of navigating, to telling others (e.g. a security guard) that the person went into the wrong way?
+I am also a little concerned that location tracking might not be so accurate in a building.
+
+**Panda Xu** 
+I really like the idea of using light to remind people to take their pills. It's extremely useful because we tend to forget to take our medicine when we are busy, which is not good for our health. In the video, I saw that the user was working on her laptop and her pill bottle was dark initially. After a while, the pill bottle ringed up and the light indicator turned green to remind the user to take pills. The goal of the character is to take pills on time and the device does a good job on that. One thing I might suggest is to build the light indicator on the cap of the bottle so users can see it from any angle.
+
 
 ## Make it your own
 
