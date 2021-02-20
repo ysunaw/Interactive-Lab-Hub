@@ -119,3 +119,9 @@ Do last week’s assignment again, but this time:
 3) We will be grading with an emphasis on creativity. 
 
 **Document everything here.**
+
+Refined Prototype
+![prototype_2](prototype_2.png)
+
+Refined storyboard
+![storyboard_2](story_board_2.png)
