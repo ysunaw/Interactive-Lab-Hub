@@ -125,3 +125,6 @@ Refined Prototype
 
 Refined storyboard
 ![storyboard_2](story_board_2.png)
+
+Refined Video
+https://youtu.be/MVZs3iS3LeY
