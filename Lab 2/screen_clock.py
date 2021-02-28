@@ -81,7 +81,6 @@ while True:
     y += font.getsize(now)[1]
     draw.text((x, y), "cups of water you drink today" + str(cups_count), font=font, fill="#FFFF00")
 
-
     # Display image.
     disp.image(image, rotation)
     time.sleep(1)
