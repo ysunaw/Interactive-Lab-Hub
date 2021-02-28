@@ -69,11 +69,11 @@ while True:
 
     #TODO: fill in here. You should be able to look in cli_clock.py and stats.py 
     cmd = "date"
-    time = subprocess.check_output(cmd, shell=True).decode("utf-8")
+    now = subprocess.check_output(cmd, shell=True).decode("utf-8")
  
     y = top
-    draw.text((x, y), time, font=font, fill="#FFFFFF")
-    y += font.getsize(time)[1]
+    draw.text((x, y), now, font=font, fill="#FFFFFF")
+    y += font.getsize(now)[1]
 
     # Display image.
     disp.image(image, rotation)
