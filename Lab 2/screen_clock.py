@@ -70,10 +70,16 @@ while True:
     #TODO: fill in here. You should be able to look in cli_clock.py and stats.py 
     cmd = "date"
     now = subprocess.check_output(cmd, shell=True).decode("utf-8")
- 
+    cups_count = 0
+    if buttonA.value:
+        cups_count += 1
+    
     y = top
     draw.text((x, y), now, font=font, fill="#FFFFFF")
     y += font.getsize(now)[1]
+    draw.text((x, y), "cups of water you drink today" + cups_count, font=font, fill="#FFFF00")
+    y += font.getsize(WTTR)[1]
+    draw.text((x, y), USD, font=font, fill="#0000FF")
 
     # Display image.
     disp.image(image, rotation)
