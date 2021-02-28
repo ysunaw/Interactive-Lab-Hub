@@ -79,7 +79,7 @@ while True:
     y = top
     draw.text((x, y), now, font=font, fill="#FFFFFF")
     y += font.getsize(now)[1]
-    draw.text((x, y), "cups of water you drink today" + str(cups_count), font=font, fill="#FFFF00")
+    draw.text((x, y), "cups of water: " + str(cups_count), font=font, fill="#FFFF00")
 
     # Display image.
     disp.image(image, rotation)
