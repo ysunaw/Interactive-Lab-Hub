@@ -61,6 +61,8 @@ font = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", 18)
 # Turn on the backlight
 backlight = digitalio.DigitalInOut(board.D22)
 backlight.switch_to_output()
+buttonA = digitalio.DigitalInOut(board.D23)
+buttonA.switch_to_input()
 backlight.value = True
 
 while True:
