@@ -1,5 +1,8 @@
 from time import strftime, sleep
+import os
 while True:
-    print (strftime("%m/%d/%Y %H:%M:%S"), end="", flush=True)
-    print("\r", end="", flush=True)
-    sleep(1)
+    text = strftime("%m/%d/%Y %H:%M:%S") # , end="", flush=True)
+    cmd = "echo {}".format(text)
+	os.system(cmd)
+    # print("\r", end="", flush=True)
+    # sleep(1)
