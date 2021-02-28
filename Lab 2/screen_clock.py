@@ -68,7 +68,7 @@ while True:
     draw.rectangle((0, 0, width, height), outline=0, fill=0)
 
     #TODO: fill in here. You should be able to look in cli_clock.py and stats.py 
-    cmd = "python cli_clock.py"
+    cmd = "date"
     time = subprocess.check_output(cmd, shell=True).decode("utf-8")
  
     y = top
