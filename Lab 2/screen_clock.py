@@ -68,9 +68,9 @@ while True:
     draw.rectangle((0, 0, width, height), outline=0, fill=0)
 
     #TODO: fill in here. You should be able to look in cli_clock.py and stats.py 
-    time = subprocess.check_output(cmd, shell=True).decode("utf-8")
     cmd = "python cli_clock.py"
-
+    time = subprocess.check_output(cmd, shell=True).decode("utf-8")
+ 
     y = top
     draw.text((x, y), time, font=font, fill="#FFFFFF")
     y += font.getsize(time)[1]
