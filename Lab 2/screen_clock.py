@@ -1,11 +1,11 @@
 import time
+from time import strftime, sleep
 import subprocess
 import digitalio
 import board
 from PIL import Image, ImageDraw, ImageFont
 import adafruit_rgb_display.st7789 as st7789
-from time import strftime
-
+import qwiic_joystick
 
 
 # Configuration for CS and DC pins (these are FeatherWing defaults on M0/M4):
@@ -61,26 +61,102 @@ font = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", 18)
 # Turn on the backlight
 backlight = digitalio.DigitalInOut(board.D22)
 backlight.switch_to_output()
-buttonA = digitalio.DigitalInOut(board.D23)
-buttonA.switch_to_input()
 backlight.value = True
+
+# Enable the buttons for demo
+buttonA = digitalio.DigitalInOut(board.D23)
+buttonB = digitalio.DigitalInOut(board.D24)
+
+# Define default coordination
+x, y = 3, 5
+
+# Enable the joystick
+joystick = qwiic_joystick.QwiicJoystick()
+
+if joystick.is_connected() == False:
+    print("The Qwiic Joystick device isn't connected to the system. Please check your connection", \
+        file=sys.stderr)
+
+joystick.begin()
+
+print("Initialized. Firmware Version: %s" % joystick.get_version())
 
 while True:
     # Draw a black filled box to clear the image.
     draw.rectangle((0, 0, width, height), outline=0, fill=0)
 
     #TODO: fill in here. You should be able to look in cli_clock.py and stats.py 
-    cmd = "date"
-    now = subprocess.check_output(cmd, shell=True).decode("utf-8")
-    cups_count = 0
-    if buttonA.value:
-        cups_count += 1
-    
-    y = top
-    draw.text((x, y), now, font=font, fill="#FFFFFF")
-    y += font.getsize(now)[1]
-    draw.text((x, y), "cups of water: " + str(cups_count), font=font, fill="#FFFF00")
 
-    # Display image.
-    disp.image(image, rotation)
-    time.sleep(1)
+    # Get current time hour 
+    hour = int(strftime("%H"))
+
+    print("X: %d, Y: %d, Button: %d" % ( \
+            joystick.get_horizontal(), \
+            joystick.get_vertical(), \
+            joystick.get_button()))
+
+    time.sleep(0.1)
+
+    # Button Push
+    while joystick.get_button() == 0:
+        ma_img = Image.open("mawen.jpeg")
+        ma_img = ma_img.resize((240, 135), Image.BICUBIC)
+
+        disp.image(ma_img, rotation)
+        time.sleep(0.1)
+    # Left
+    while 500 < joystick.get_horizontal() <= 600 and joystick.get_vertical() == 0:
+        ma_img = Image.open("1.png")
+        ma_img = ma_img.resize((240, 135), Image.BICUBIC)
+    
+        disp.image(ma_img, rotation)
+        time.sleep(0.1)
+    # Upper Left
+    while joystick.get_horizontal() == 1023 and 0 <= joystick.get_vertical() < 100:
+        ma_img = Image.open("2.png")
+        ma_img = ma_img.resize((240, 135), Image.BICUBIC)
+    
+        disp.image(ma_img, rotation)
+        time.sleep(0.1)
+    # Up
+    while joystick.get_horizontal() == 1023 and 500 <= joystick.get_vertical() < 600:
+        ma_img = Image.open("3.png")
+        ma_img = ma_img.resize((240, 135), Image.BICUBIC)
+    
+        disp.image(ma_img, rotation)
+        time.sleep(0.1)
+    # Upper Right
+    while joystick.get_horizontal() == 1023 and 1000 <= joystick.get_vertical() < 1024:
+        ma_img = Image.open("4.png")
+        ma_img = ma_img.resize((240, 135), Image.BICUBIC)
+    
+        disp.image(ma_img, rotation)
+        time.sleep(0.1)
+    # Right
+    while 500 <= joystick.get_horizontal() < 600 and 0 <= joystick.get_vertical() == 1023:
+        ma_img = Image.open("5.png")
+        ma_img = ma_img.resize((240, 135), Image.BICUBIC)
+    
+        disp.image(ma_img, rotation)
+        time.sleep(0.1)
+    # Lower Right
+    while joystick.get_horizontal() == 0 and 1000 <= joystick.get_vertical() < 1024:
+        ma_img = Image.open("6.png")
+        ma_img = ma_img.resize((240, 135), Image.BICUBIC)
+    
+        disp.image(ma_img, rotation)
+        time.sleep(0.1)
+    # Down
+    while joystick.get_horizontal() == 0 and 500 <= joystick.get_vertical() < 600:
+        ma_img = Image.open("7.png")
+        ma_img = ma_img.resize((240, 135), Image.BICUBIC)
+    
+        disp.image(ma_img, rotation)
+        time.sleep(0.1)
+    # Lower Left
+    while 0 <=joystick.get_horizontal() < 100 and 0 <= joystick.get_vertical() < 100:
+        ma_img = Image.open("8.png")
+        ma_img = ma_img.resize((240, 135), Image.BICUBIC)
+    
+        disp.image(ma_img, rotation)
+        time.sleep(0.1)
