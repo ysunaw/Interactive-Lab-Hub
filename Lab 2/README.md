@@ -171,9 +171,36 @@ After that git will ask you to login to your github account to upload.
 **Take a video of your PiClock.**
 https://youtu.be/gpVNBVVOoeA
 
+## Part F. 
+## Make a short video of your modified barebones PiClock
+
+## Kung Fu Master Ma Baoguo Clock:
+
+Master Ma Baoguo is urging you to get up early to practice best Kung Fu `Song Guo Tan Dou Shan Dian Bian` (Loose Five Flicking Lightning Whip)
+
+![image](mabaoguo1.JPG)
+
+![image](mabaoguo2.JPG)
+
+**Take a video of your PiClock.**
+
+Link: https://drive.google.com/file/d/1fWPVLEmc0S7HYXxM5JNsh0An-HEPadp8/view?usp=sharing
 
 ## Part G. 
 ## Sketch and brainstorm further interactions and features you would like for your clock for Part 2.
+Pomodoro clock!
 
-I would want to make a pomodoro clock for part 2. Also I would like it to display an image as the background.
+
+# Lab 2 Part 2
+
+Partner: James Zhonghao Zhan
+
+
+## We enabled the joystick to control the screen image. It will show different image of Master Ma Baoguo accroding to the direction of the joystick
+
+![image](demo1.jpg)
+
+![image](demo2.jpg)
+
+Link: https://drive.google.com/file/d/15FnWmL25BEp2n7R2D9vxdntsE84pKdUV/view?usp=sharing
 
