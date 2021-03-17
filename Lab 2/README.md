@@ -169,10 +169,38 @@ After that, git will ask you to login to your github account to upload.
 ## Make a short video of your modified barebones PiClock
 
 **Take a video of your PiClock.**
+https://youtu.be/gpVNBVVOoeA
+
+## Part F. 
+## Make a short video of your modified barebones PiClock
+
+## Kung Fu Master Ma Baoguo Clock:
+
+Master Ma Baoguo is urging you to get up early to practice best Kung Fu `Song Guo Tan Dou Shan Dian Bian` (Loose Five Flicking Lightning Whip)
+
+![image](mabaoguo1.JPG)
+
+![image](mabaoguo2.JPG)
+
+**Take a video of your PiClock.**
+
+Link: https://drive.google.com/file/d/1fWPVLEmc0S7HYXxM5JNsh0An-HEPadp8/view?usp=sharing
 
 ## Part G. 
 ## Sketch and brainstorm further interactions and features you would like for your clock for Part 2.
+Pomodoro clock!
 
+
+# Lab 2 Part 2
+
+Partner: James Zhonghao Zhan
+
+
+## We enabled the joystick to control the screen image. It will show different image of Master Ma Baoguo accroding to the direction of the joystick
+
+![image](demo1.jpg)
+
+<<<<<<< HEAD
 ## Prep for Part 2
 
 1. Pick up remaining parts for kit.
@@ -188,5 +216,9 @@ Modify the code from last week's lab to make a new visual interface for your new
 As always, make sure you document contributions and ideas from others explicitly in your writeup.
 
 You are permitted (but not required) to work in groups and share a turn in; you are expected to make equal contribution on any group work you do, and N people's group project should look like N times the work of a single person's lab. What each person did should be explicitly documented. Make sure the page for the group turn in is linked to your Interactive Lab Hub page. 
+=======
+![image](demo2.jpg)
+>>>>>>> f7ab46b36000fdfd7aa23bf176e837bb13e4da9f
 
+Link: https://drive.google.com/file/d/15FnWmL25BEp2n7R2D9vxdntsE84pKdUV/view?usp=sharing
 
