@@ -68,9 +68,11 @@ Create a system that runs on the Raspberry Pi that takes in one or more sensors 
 
 1. Sketch ideas for what you'll work on in lab on Wednesday.
 
-## Share your idea sketches with Zoom Room mates and get feedback
+I plan to create a daily horoscopes device - you can tell it your zodiac sign and it will reply with how you will do today accordingly! 
 
-*what was the feedback? Who did it come from?*
+**Zoom Room feedback**
+
+Most of those in the Zoom room gave me positive feedback (Panda, Renzhi, Zhonghao). Songyu in particular mentioned that in my original design( which was a fortune cookie machine), the user did not get to talk. so i modified it to be more interactive. 
 
 ## Prototype your system
 
@@ -80,27 +82,26 @@ The system should:
 * require participants to speak to it. 
 
 *Document how the system works*
+The system works with the screen, the microphone and the speaker. The user could tell the zodiac sign using the mic; he/she will then press the button to see what his/her daily holoscope will be. 
+The holoscope message is actually randomly generated from a list of answers, which is how I think the way holoscope works. 
 
-*Include videos or screencaptures of both the system and the controller.*
+Video
+https://youtu.be/z6zeC-tuJvk
 
 ## Test the system
-Try to get at least two people to interact with your system. (Ideally, you would inform them that there is a wizard _after_ the interaction, but we recognize that can be hard.)
-
-Answer the following:
 
 ### What worked well about the system and what didn't?
-*your answer here*
+The system flow was simple and easy to operate. But people know it was randomly generated because it did not look like it understood what people were saying. 
 
 ### What worked well about the controller and what didn't?
+The button and the screen together were able to do a lot of things. The mic alone did not work very well, so adding the button to show the holoscope message was necessary in my design. 
 
-*your answer here*
 
 ### What lessons can you take away from the WoZ interactions for designing a more autonomous version of the system?
-
-*your answer here*
+I have learned that a more autonomous system must show some level of understanding to the user's complex input of the system. And the user could easily get frustrated if the system claims that it's 'autonomous' but it's not. 
 
 
 ### How could you use your system to create a dataset of interaction? What other sensing modalities would make sense to capture?
 
-*your answer here*
+Currently I am only capturing the button and the microphone speech. To create a dataset of interaction, I could leverage light (to create a more futuristic vibe when it makes the prediction) and potentially 
 
