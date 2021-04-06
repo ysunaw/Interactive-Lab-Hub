@@ -22,21 +22,17 @@ For lab this week, we focus on the prototyping the physical look and feel of the
 <img src="https://dysonthedesigner.weebly.com/uploads/2/6/3/9/26392736/427342_orig.jpg"  width="200" > Dyson Vacuum cardboard prototypes
 
 
-### For lab, you will need:
-
-1. Cardboard (start collecting those shipping boxes!)
-1. Cutting board
-1. Cutting tools
-1. Markers
-1. Found objects and materials--like bananas--we're not saying that to be funny.
-
-
 ### Deliverables for this lab are: 
 1. Sketches/photos of device designs
+
+
 1. "Looks like" prototypes: show us what how the device should look, feel, sit, weigh, etc.
 3. "Works like" prototypes: show us what the device can do
+
 4. "Acts like" prototypes: videos/storyboards/other means of showing how a person would interact with the device
-5. Submit these in the lab 4 folder of your class [Github page], either as links or uploaded files. Each group member should post their own copy of the work to their own Lab Hub, even if some of the work is the same for each person in the group.
+
+5. Submit these in the lab 4 folder of your class [Github page], either as links or uploaded files. Each group member should post their own copy of the work to their own Lab Hub, even if some of the work is the same for each person in the group
+(Apologies for the late submission, but there is something wrong with my pi's network connection. i will get it fixed tomorrow and record the video asap) 
 
 
 ## Overview
@@ -142,7 +138,8 @@ Make a paper display for your project that communicates the state of the Pi and 
 Design a system with the Pi and anything from your kit with a focus on form, and materiality. The "stuff" that enclose the system should be informed by the desired interaction. What would a computer made of rocks be like? How would an ipod made of grass behave? Would a roomba made of gold clean your floor any differently?
 
 **a. document the material prototype.** Include candidates that were considered even if they were set aside later.
-
+Candidates that were considered: 
+I thought about using a box or use paper for the cookie jar, but I thought since it's a cookie jar it should look like an actual cookie jar. 
 **b. explain the selection.**
 
 ### Part 2.
@@ -152,9 +149,12 @@ Following exploration and reflection from Part 1, complete the "looks like," "wo
 Reiterating:
 ### Deliverables for this lab are: 
 1. Sketches/photos of device designs
-1. "Looks like" prototypes: show us what how the device should look, feel, sit, weigh, etc.
+![image](design.png)
+2. "Looks like" prototypes: show us what how the device should look, feel, sit, weigh, etc.
+![image](looklike.png)
 3. "Works like" prototypes: show us what the device can do
 4. "Acts like" prototypes: videos/storyboards/other means of showing how a person would interact with the device
+![image](storyboard.png)
 5. Submit these in the lab 4 folder of your class [Github page], either as links or uploaded files. Each group member should post their own copy of the work to their own Lab Hub, even if some of the work is the same for each person in the group.
 
 
