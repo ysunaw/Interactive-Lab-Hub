@@ -2,7 +2,7 @@
 
 
 For lab this week, we focus on creating interactive systems that can detect and respond to events or stimuli in the environment of the Pi, like the Boat Detector we mentioned in lecture. 
-Your ``observant device`` could for example count items, find objects, recognize an event or continuously monitor a room.
+Your **observant device** could, for example, count items, find objects, recognize an event or continuously monitor a room.
 
 This lab will help you think through the design of observant systems, particularly corner cases that the algorithms need to be aware of.
 
@@ -13,7 +13,7 @@ In Lab 5 part 2, we'll incorporate interactive responses.
 
 ## Prep
 
-1.  ~~Pull the new Github Repo.~~ Check on Wednesday to pull the new Github Repo!
+1.  Pull the new Github Repo.
 2.  Read about [OpenCV](https://opencv.org/about/).
 3.  Read Belloti, et al's [Making Sense of Sensing Systems: Five Questions for Designers and Researchers](https://www.cc.gatech.edu/~keith/pubs/chi2002-sensing.pdf)
 
@@ -37,7 +37,7 @@ A) [Play](#part-a)
 
 B) [Fold](#part-b)
 
-C) [Test Fly](#part-c)
+C) [Flight test](#part-c)
 
 D) [Reflect](#part-d)
 
@@ -82,9 +82,15 @@ pi@ixe00:~/openCV-examples $ tree -l
     └── ssd_mobilenet_v2_coco_2018_03_29.pbtxt
 ```
 #### Filtering, FFTs, and Time Series data.
-While we do not have examples ready, additional filtering and analysis can be done on the sensors that were provided in the kit. For example, running a Fast Fourier Transform over the IMU data stream could create a simple activity classifier between walking, running, and standing.
+Additional filtering and analysis can be done on the sensors that were provided in the kit. For example, running a Fast Fourier Transform over the IMU data stream could create a simple activity classifier between walking, running, and standing.
 
-`TODO: Example`
+Using the set up from the Lab 3 demo and the accelerometer, try the following:
+
+**1. Set up threshold detection** Can you identify when a signal goes above certain fixed values?
+**2. Set up averaging** Can you average your signal in N-sample blocks? N-sample running average?
+**3. Set up peak detection** Can you identify when your signal reaches a peak and then goes down?
+
+Include links to your code here, and put the code for these in your repo--they will come in handy later.
 
 #### Teachable Machines
 Google's [TeachableMachines](https://teachablemachine.withgoogle.com/train) might look very simple.  However, its simplicity is very useful for experimenting with the capabilities of this technology.
@@ -109,7 +115,7 @@ Try out different interactions outputs and inputs.
 ### Part C
 ### Test the interaction prototype
 
-Now test-fly your interactive prototype and **note things you notice**:
+Now flight test your interactive prototype and **note your observations**:
 For example:
 1. When does it what it is supposed to do?
 1. When does it fail?
