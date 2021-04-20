@@ -52,7 +52,7 @@ Additional filtering and analysis can be done on the sensors that were provided 
 Using the set up from the [Lab 3 demo](https://github.com/FAR-Lab/Interactive-Lab-Hub/tree/Spring2021/Lab%203/demo) and the accelerometer, try the following:
 
 **1. Set up threshold detection** Can you identify when a signal goes above certain fixed values?
- 
+
 **2. Set up averaging** Can you average your signal in N-sample blocks? N-sample running average?
 
 **3. Set up peak detection** Can you identify when your signal reaches a peak and then goes down?
@@ -66,8 +66,8 @@ Include links to your code here, and put the code for these in your repo--they w
 
 **Describe and detail the interaction, as well as your experimentation.**
 I tried out the OpenCV sample provided. 
-My experimentation is a fruit recognizer: it could recognize different fruits through the camera.  
-Smart fridge that has a web-cam 
+My experimentation is a fruit recognizer: it could recognize different fruits through the camera. I have trained the model with four different kinds of fruits - orange, banana, pear and carrots. 
+
 Video of the model: 
 https://youtu.be/S4Lv6lRrNtw
 
@@ -77,15 +77,31 @@ https://youtu.be/S4Lv6lRrNtw
 Now flight test your interactive prototype and **note your observations**:
 For example:
 1. When does it what it is supposed to do?
-1. When does it fail?
-1. When it fails, why does it fail?
-1. Based on the behavior you have seen, what other scenarios could cause problems?
+
+Most of the time, it does what it is 
+
+3. When does it fail?
+4. When it fails, why does it fail?
+
+
+S
+
+4. Based on the behavior you have seen, what other scenarios could cause problems?
 
 **Think about someone using the system. Describe how you think this will work.**
 1. Are they aware of the uncertainties in the system?
-1. How bad would they be impacted by a miss classification?
-1. How could change your interactive system to address this?
-1. Are there optimizations you can try to do on your sense-making algorithm.
+
+Maybe not. People might want the model to work at 100% accuracy and would feel frustrated when it is not. 
+
+2. How bad would they be impacted by a miss classification?
+
+
+3. How could change your interactive system to address this?
+
+
+4. Are there optimizations you can try to do on your sense-making algorithm.
+
+
 
 ### Part D
 ### Characterize your own Observant system
@@ -93,21 +109,28 @@ For example:
 Now that you have experimented with one or more of these sense-making systems **characterize their behavior**.
 During the lecture, we mentioned questions to help characterize a material:
 * What can you use X for?
+
 The fruit recognizer can be used in a smart fridge, where it detects what is in the fridge and tells you, or even generates recipes for you to let you know what you could make out of the food in your fridge. 
+
 * What is a good environment for X?
-An ideal environment would have enough lightning, and nothing is blocked from the 
+
+An ideal environment would have enough lightning, and nothing is blocking the fruit from being recognized by the camera. 
+
 * What is a bad environment for X?
+
+Dim, Dark environment; shaky camera; blocking of the fruit. 
+
 * When will X break?
-It will 
+
+It will likely break
+
 * When it breaks how will X break?
 * What are other properties/behaviors of X?
 * How does X feel?
 
-**Include a short video demonstrating the answers to these questions.**
+X could be 
 
 ### Part 2.
-
-Following exploration and reflection from Part 1, finish building your interactive system, and demonstrate it in use with a video.
 
 **Include a short video demonstrating the finished result.**
 
