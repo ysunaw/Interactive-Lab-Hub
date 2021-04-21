@@ -129,7 +129,7 @@ Dim, Dark environment; shaky camera; blocking of the fruit.
 
 * When will X break?
 
-It will likely break when put in a bad enironmne.t 
+It will likely break when put in a bad enironmnent. 
 
 * When it breaks how will X break?
 
@@ -137,9 +137,11 @@ It will output wrong label of the recognized fruit.
 
 * What are other properties/behaviors of X?
 
+
+
 * How does X feel?
 
-X should include a screen on the fridge, and a in-built camera (or cameras) that is hidden but also takes in all the things 
+X should include a screen on the fridge, and a in-built camera (or cameras) that is hidden but also takes in all the things in the fridge perfectly. 
 
 ### Part 2.
 
@@ -155,8 +157,8 @@ The user would be frustrated and disappointed by the system, to say the least. T
 
 3. How could change your interactive system to address this?
 
-One of the main changes that could be made would 
+One of the main changes that could be made would be to improve the model accuracy. 
 
 4. Are there optimizations you can try to do on your sense-making algorithm.
 
-
+I could use more training data in different light conditions and angles - currently I have only ~100 images per class, with pictures taking at day & night. I should try different light sources and light intensity and record more models for training. 
