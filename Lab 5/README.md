@@ -46,6 +46,9 @@ D) [Reflect](#part-d)
 ### Part A
 ### Play with different sense-making algorithms.
 
+I tested the object detection example. 
+I used the noWindow version, and the terminal outputs 'finished a frame'. 
+
 #### Filtering, FFTs, and Time Series data. (beta, optional)
 Additional filtering and analysis can be done on the sensors that were provided in the kit. For example, running a Fast Fourier Transform over the IMU data stream could create a simple activity classifier between walking, running, and standing.
 
@@ -78,10 +81,13 @@ Now flight test your interactive prototype and **note your observations**:
 For example:
 1. When does it what it is supposed to do?
 
-Most of the time, it does what it is 
+Most of the time, it does what it is supposed to do, I guess it it's because the objects are rather simple and distinct from each other. 
 
 3. When does it fail?
-4. When it fails, why does it fail?
+
+It fails when 
+
+5. When it fails, why does it fail?
 
 
 S
@@ -94,6 +100,7 @@ S
 Maybe not. People might want the model to work at 100% accuracy and would feel frustrated when it is not. 
 
 2. How bad would they be impacted by a miss classification?
+
 
 
 3. How could change your interactive system to address this?
@@ -122,15 +129,34 @@ Dim, Dark environment; shaky camera; blocking of the fruit.
 
 * When will X break?
 
-It will likely break
+It will likely break when put in a bad enironmne.t 
 
 * When it breaks how will X break?
+
+It will output wrong label of the recognized fruit. 
+
 * What are other properties/behaviors of X?
+
 * How does X feel?
 
-X could be 
+X should include a screen on the fridge, and a in-built camera (or cameras) that is hidden but also takes in all the things 
 
 ### Part 2.
 
 **Include a short video demonstrating the finished result.**
+
+1. Are they aware of the uncertainties in the system?
+
+Maybe not. People might want the model to work at 100% accuracy and would feel frustrated when it is not. 
+
+2. How bad would they be impacted by a miss classification?
+
+The user would be frustrated and disappointed by the system, to say the least. They might get wrong labels of the fruit, which result in wrong generations of the recipe for the smart fridge. People might decide to make something out of the stuff in the fridge only to open the fridge and find out they don't have that ingredient. 
+
+3. How could change your interactive system to address this?
+
+One of the main changes that could be made would 
+
+4. Are there optimizations you can try to do on your sense-making algorithm.
+
 
