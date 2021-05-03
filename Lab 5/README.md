@@ -56,6 +56,8 @@ Using the set up from the [Lab 3 demo](https://github.com/FAR-Lab/Interactive-La
 
 **1. Set up threshold detection** Can you identify when a signal goes above certain fixed values?
 
+Yes. 
+
 **2. Set up averaging** Can you average your signal in N-sample blocks? N-sample running average?
 
 **3. Set up peak detection** Can you identify when your signal reaches a peak and then goes down?
@@ -85,14 +87,15 @@ Most of the time, it does what it is supposed to do, I guess it it's because the
 
 3. When does it fail?
 
-It fails when 
+It fails when  
 
 5. When it fails, why does it fail?
 
 
-S
 
 4. Based on the behavior you have seen, what other scenarios could cause problems?
+
+When there are multiple items in the camera frame, simple image recognition would not be enough to give out the correct labels; To successfully recognize all the fruits that appears in the 
 
 **Think about someone using the system. Describe how you think this will work.**
 1. Are they aware of the uncertainties in the system?
@@ -101,13 +104,15 @@ Maybe not. People might want the model to work at 100% accuracy and would feel f
 
 2. How bad would they be impacted by a miss classification?
 
-
+People would, to say the least, not end up getting what they expected when they open the fridge. How bad this actually is will be dependent on how hungry people are at the moment they find out, or how badly they are craving for the food. 
 
 3. How could change your interactive system to address this?
 
+I would try to improve accuracy 
 
 4. Are there optimizations you can try to do on your sense-making algorithm.
 
+A simple optimization would be to include more diversified data for training. 
 
 
 ### Part D
