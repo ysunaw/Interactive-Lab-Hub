@@ -87,15 +87,15 @@ Most of the time, it does what it is supposed to do, I guess it it's because the
 
 3. When does it fail?
 
-It fails when  
+It fails when I don't turn my desk lamp on; it also failed to recognize the banana when i point it directly towards the camera. 
 
 5. When it fails, why does it fail?
 
-
+I think it failed because of the lighting, and also because I did not put comprehensive training data to train the model. 
 
 4. Based on the behavior you have seen, what other scenarios could cause problems?
 
-When there are multiple items in the camera frame, simple image recognition would not be enough to give out the correct labels; To successfully recognize all the fruits that appears in the 
+When there are multiple items in the camera frame, simple image recognition would not be enough to give out the correct labels; To successfully recognize all the fruits that appears in the picture frame, there should first be image segmentation to tell how many fruits there are.  
 
 **Think about someone using the system. Describe how you think this will work.**
 1. Are they aware of the uncertainties in the system?
@@ -108,7 +108,7 @@ People would, to say the least, not end up getting what they expected when they 
 
 3. How could change your interactive system to address this?
 
-I would try to improve accuracy 
+I would try to improve accuracy by feeding more diversified data, e.g. different fruits and different angles of each fruit. 
 
 4. Are there optimizations you can try to do on your sense-making algorithm.
 
