@@ -79,10 +79,11 @@ Glitch is a great tool for prototyping sites, interfaces and web-apps that's wor
 
 
 ## Make it your own
+My partner for this lab is Yanjun Zhou and we are making a Tic-tac-toe together. 
 
-Find at least one class (more are okay) partner, and design a distributed application together. 
+**1. Explain your design** 
 
-**1. Explain your design** For example, if you made a remote controlled banana piano, explain why anyone would want such a thing.
+We are making a tic-tac-toe game - Two players can input 
 
 **2. Diagram the architecture of the system.** Be clear to document where input, output and computation occur, and label all parts and connections. For example, where is the banana, who is the banana player, where does the sound get played, and who is listening to the banana music?
 
