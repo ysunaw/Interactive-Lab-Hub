@@ -85,9 +85,8 @@ Glitch is a great tool for prototyping sites, interfaces and web-apps that's wor
 My partner for this lab is Yanjun Zhou and we are making a Tic-tac-toe together. 
 
 **1. Explain your design** 
-
-We are making a tic-tac-toe game - Two players can input 
-
+We are making a tic-tac
+[!image]
 **2. Diagram the architecture of the system.** Be clear to document where input, output and computation occur, and label all parts and connections. For example, where is the banana, who is the banana player, where does the sound get played, and who is listening to the banana music?
 
 **3. Build a working prototype of the system.** Do think about the user interface: if someone encountered these bananas, would they know how to interact with them? Should they know what to expect?
