@@ -71,7 +71,7 @@ import paho.mqtt.client as mqtt
 import uuid
 
 # Global variable, current content
-content = None
+content = 1
 
 topic = 'IDD/tic-tac-toc'
 
