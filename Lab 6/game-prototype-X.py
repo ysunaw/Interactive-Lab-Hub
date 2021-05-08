@@ -234,5 +234,4 @@ while content != enemy + 'win':
                 theBoard[str(move)] = player
                 count += 1
                 break
-    
-
+   
