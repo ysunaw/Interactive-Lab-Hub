@@ -71,7 +71,7 @@ import paho.mqtt.client as mqtt
 import uuid
 
 # Global variable, current content
-content = 1
+content = "111"
 
 topic = 'IDD/tic-tac-toc'
 
@@ -127,6 +127,7 @@ def printText(image, draw, txt):
 
 
 def check(turn, count, theBoard):
+    print(count)
     if count >= 5:
         if theBoard['7'] == theBoard['8'] == theBoard['9'] != ' ':
             txt = turn + " won."                 
@@ -175,11 +176,13 @@ touched = False
 # Send a signal to broker
 client.publish(topic, turn)
 
+"""
 # Detect enemy
 while content != enemy:
     # Send a signal to broker
     client.publish(topic, turn)
     time.sleep(0.5)
+"""
 
 # Game start
 while content != enemy + 'win':
@@ -219,7 +222,7 @@ while content != enemy + 'win':
     # Now we will check if player X or O has won,for every move after 5 moves. 
     end = check(turn, count, theBoard)
     if end:
-        client.publish(topic, turn + 'win')
+        # client.publish(topic, turn + 'win')
         break
 
     # Enemy's turn, detect enemy signal
@@ -227,7 +230,9 @@ while content != enemy + 'win':
         if len(content) == 2:
             move, player = content[0], content[1]
             if player == enemy:
-                printboard(move, player, image, disp, rotation)
-                theBoard[move] = player
+                printBoard(move, player, image, disp, rotation)
+                theBoard[str(move)] = player
+                count += 1
                 break
- 
+    
+
