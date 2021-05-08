@@ -224,11 +224,10 @@ while content != enemy + 'win':
 
     # Enemy's turn, detect enemy signal
     while True:
-        move, player = content[0], content[1]
-        if player == enemy:
-            printboard(move, player, image, disp, rotation)
-            theBoard[move] = player
-            break
-    
-
-
+        if len(content) == 2:
+            move, player = content[0], content[1]
+            if player == enemy:
+                printboard(move, player, image, disp, rotation)
+                theBoard[move] = player
+                break
+ 
