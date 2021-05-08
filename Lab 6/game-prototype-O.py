@@ -237,7 +237,3 @@ while content != enemy + 'win':
     end = check(turn, count, theBoard)
     if end:           
         break
-
-
-    
-
