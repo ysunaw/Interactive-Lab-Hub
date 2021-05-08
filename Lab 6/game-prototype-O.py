@@ -216,8 +216,8 @@ while content != enemy + 'win':
                     continue   
 
     # Send a signal, e.g. 1X
-    client.publish(topic, str(move) + turn)
     content = str(move) + turn
+    client.publish(topic, content)
 
     # Clear text
     txt = "Wait your oppo"
