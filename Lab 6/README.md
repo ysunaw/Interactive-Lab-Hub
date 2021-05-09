@@ -65,7 +65,7 @@ We are making a tic-tac--toe game for two-player. The two players can play remot
 
 The architecture of the system consists of two players's components. Each player has their own Raspberry Pi, screen, and a tic-tac-toe board. When it's one's turn, a 'it's your turn' message will be displayed on the screen. The player can then input their move by touching the tic-tac-toe board. The move will then occur on both of the player's screens. When a player makes a three-in-a-row, there will be a message saying who won the game and the game is ended. 
 
-![sys-diagram](tictactoe-sys.png)
+![sys-diagram](./imgs/tictactoe-sys.png)
 
 **3. Build a working prototype of the system.** Do think about the user interface: if someone encountered these bananas, would they know how to interact with them? Should they know what to expect?
 
@@ -73,6 +73,6 @@ The player who plays the 'X' chess will start first in the game. Each player wil
 
 **4. Document the working prototype in use.** 
 
-![demo](demo.png)
+![demo](./imgs/demo.png)
 
 The demo of the working prototype could be found here: https://youtu.be/bOe8RZwlmhE 
