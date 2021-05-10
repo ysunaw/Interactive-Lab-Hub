@@ -34,6 +34,10 @@ We used a two 6*5 board.
 
 We separated the code into two separate files for each player (`connect-4-O.py` and `connect-4-X.py`). The one playing the chess O will be the one that makes the first move. 
 
+- Making your move
+
+To make a move the player needs to update
+
 - Communication
 
 The `on_connect` and `on_message` functions are used for communicating what move they are making. Each side acts as both the sender and the receiver: they send a message right after a valid move is made (i.e. a touch sensor representing a column that is not full is triggered), and they keep monitoring the messages and get informed when their opponent has made a move. 
@@ -49,7 +53,8 @@ Once the opponent has made a move, the player needs to update their board accord
 ## Reflection
 
 The cutting took awfully long time, and we spent quite some amount of time figuring out how to make the board. 
-On the coding side, ... 
+
+On the coding side, ... the logic behind the Connect Four .. Unexpected error could occur. Since we are also dealing with 6 touchpoints, we learnt it the hard way that the wiring needs to be clean and neat to not mess things up. 
 
 ## Our Team
 
