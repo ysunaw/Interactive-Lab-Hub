@@ -11,7 +11,7 @@ Final Project Presentations (video watch party) - May 12
 Final Project Documentation due - May 19
 
 ## Description
-Your project is to design and build an interactive device to suit a specific application of your choosing. 
+In our final project, we used Raspeberry Pi to simulate the Connect Four game. The game features two players - each has their own set of boards and chesses - playing the game remotely. 
 
 ## Deliverables
 
@@ -22,13 +22,34 @@ Your project is to design and build an interactive device to suit a specific app
 
 ### Design Process
 
-#### The board
+#### System design
 
-The board is a 6*5 board. We designed 
+
+
+#### Chessboard design
+
+We used a two 6*5 board. 
+
+#### Functional design
+
+We separated the code into two separate files for each player (`connect-4-O.py` and `connect-4-X.py`). The one playing the chess O will be the one that makes the first move. 
+
+- Communication
+
+The `on_connect` and `on_message` functions are used for communicating what move they are making. Each side acts as both the sender and the receiver: they send a message right after a valid move is made (i.e. a touch sensor representing a column that is not full is triggered), and they keep monitoring the messages and get informed when their opponent has made a move. 
+
+- Update opponent's move
+
+Once the opponent has made a move, the player needs to update their board accordingly. This is accomplished by displaying what the other player has placed their move on the screen. After the player has updated the board, the player need to 
 
 
 ### Video
 
+
+## Reflection
+
+The cutting took awfully long time, and we spent quite some amount of time figuring out how to make the board. 
+On the coding side, ... 
 
 ## Our Team
 
