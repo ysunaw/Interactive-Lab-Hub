@@ -58,9 +58,11 @@ On the coding side, ... the logic behind the Connect Four .. Unexpected error co
 
 ## Our Team
 
-Yanjun Zhou
-Yimeng Sun
-Renzhi Hu
+- Yanjun Zhou
+
+- Yimeng Sun
+
+- Renzhi Hu
 
 
 
