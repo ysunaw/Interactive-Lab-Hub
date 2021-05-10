@@ -10,12 +10,6 @@ Final Project Presentations (video watch party) - May 12
 
 Final Project Documentation due - May 19
 
-
-
-## Objective
-
-The goal of this final project is for you to have a fully functioning and well-designed interactive device of your own design.
- 
 ## Description
 Your project is to design and build an interactive device to suit a specific application of your choosing. 
 
@@ -26,15 +20,24 @@ Your project is to design and build an interactive device to suit a specific app
 3. Video of someone using your project (or as safe a version of that as can be managed given social distancing)
 4. Reflections on process (What have you learned or wish you knew at the start?)
 
+### Design Process
 
-## Teams
+#### The board
 
-You can and are not required to work in teams. Be clear in documentation who contributed what. The total project contributions should reflect the number of people on the project.
+The board is a 6*5 board. We designed 
 
-## Examples
 
-[Here is a list of good final projects from previous classes.](https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/wiki/Previous-Final-Projects)
-This version of the class is very different, but it may be useful to see these.
+### Video
+
+
+## Our Team
+
+Yanjun Zhou
+Yimeng Sun
+Renzhi Hu
+
+
+
 
 
 
