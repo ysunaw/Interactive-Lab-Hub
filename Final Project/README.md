@@ -11,7 +11,7 @@ Final Project Presentations (video watch party) - May 12
 Final Project Documentation due - May 19
 
 ## Description
-In our final project, we used Raspeberry Pi to simulate the Connect Four game. The game features two players - each has their own set of boards and chesses - playing the game remotely. 
+In our final project, we used Raspeberry Pi to simulate the Connect Four game. The game features two players - each has their own set of boards and discs - playing the game remotely. 
 
 ## Deliverables
 
@@ -28,7 +28,8 @@ In our final project, we used Raspeberry Pi to simulate the Connect Four game. T
 
 #### Chessboard design
 
-We used a two 6*5 board. 
+We used a two 6 * 5 chessboard. 
+![board front](./imgs/board.png)
 
 #### Functional design
 
@@ -36,7 +37,7 @@ We separated the code into two separate files for each player (`connect-4-O.py` 
 
 - Making your move
 
-To make a move the player needs to update
+To make a move, the player needs to place the disc at the column he wants to place it, and press on the corresponding touch pad to update Pi about the move made. 
 
 - Communication
 
@@ -44,15 +45,17 @@ The `on_connect` and `on_message` functions are used for communicating what move
 
 - Update opponent's move
 
-Once the opponent has made a move, the player needs to update their board accordingly. This is accomplished by displaying what the other player has placed their move on the screen. After the player has updated the board, the player need to 
+Once the opponent has made a move, the player needs to update their board accordingly. This is accomplished by displaying what the other player placed their move on the screen. The player need to drop the disc at the corresponding column  
 
 
 ### Video
 
+https://youtu.be/OCgLxLWi-co
 
 ## Reflection
 
-The cutting took awfully long time, and we spent quite some amount of time figuring out how to make the board. 
+We spent quite some amount of time figuring out how to make the board and the cutting of the board took an unexpected amount of time 
+
 
 On the coding side, ... the logic behind the Connect Four .. Unexpected error could occur. Since we are also dealing with 6 touchpoints, we learnt it the hard way that the wiring needs to be clean and neat to not mess things up. 
 
