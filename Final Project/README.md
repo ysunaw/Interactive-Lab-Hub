@@ -47,6 +47,7 @@ The `on_connect` and `on_message` functions are used for communicating what move
 
 Once the opponent has made a move, the player needs to update their board accordingly. This is accomplished by displaying what the other player placed their move on the screen. The player need to drop the disc at the corresponding column  
 
+- Winning/Losing the game
 
 ### Video
 
