@@ -45,7 +45,7 @@ An illustration of the flow design can be found below.
 
 Our Connect four game uses a 6 * 5 grid chessboard. We made the board by sticking three cardboards together like a sandwich. The front layer crops 5 holes of each column. The holes are a little smaller than the discs. 
 
-![board front](./imgs/board.png)
+![board front](./imgs/board-draft-2.png)
 
 The cardboard in the middle are seven thin lines to hold and separate each column of discs. 
 
