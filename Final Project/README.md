@@ -30,7 +30,7 @@ The system consists of two Rasperry Pis, each one is connected to its screen and
 
 ![front of touchboard](./imgs/touch-front.jpg)
 
-![back of touchboard](./imgs/touch.png)
+![back of touchboard](./imgs/touch.jpg)
 
 Once the game starts, we also establish a communication channel using the MQTT explorer. A message containing the move and the player's name is sent through the channel after a player touches a sensor. After receiving the message from the other player, the player has to update the board on his/her side following the screen instruction before he/she could make a move. 
 
