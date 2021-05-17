@@ -13,7 +13,7 @@ Final Project Documentation due - May 19
 ## Description
 In our final project, we used our Raspeberry Pi to simulate the Connect Four game. 
 
-The game features two players - each has their own set of boards and discs - playing the game remotely. The players would take turns to drop discs into a six-column, five-row cardboard grid. A player gets to win the game if four of his/her discs form a horizontal. vertical, or diagonal line. 
+The game features two players - each has their own set of boards and discs - playing the game remotely. The players would take turns to drop discs into a six-column, five-row cardboard grid. A player gets to win the game if four of his/her discs form a horizontal, vertical, or diagonal line. 
 
 ## Deliverables
 
@@ -26,7 +26,7 @@ The game features two players - each has their own set of boards and discs - pla
 
 ### System design
 
-The system consists of two Rasperry Pis, each one is connected to its screen and capacitive touch sensor. The screen is used to display messages and update the system status. The touch sensor are connected to a board that has six vertical lines, each corresponds to one column on the chessboard. 
+The system consists of two Raspberry Pis, each one is connected to its screen and capacitive touch sensor. The screen is used to display messages and update the system status. The touch sensor are connected to a board that has six vertical lines, each corresponds to one column on the chessboard. 
 
 ![front of touchboard](./imgs/touch-front.jpg)
 
@@ -79,7 +79,7 @@ The demo video could be found here: https://youtu.be/OCgLxLWi-co
 
 ## Reflection
 
-On the hardware side. We spent quite some time figuring out how to make the board and the cutting of the board took an unexpected amount of time because we needed to make two sets of boards, and we have to carve the holes out for each board. 
+On the hardware side, We spent quite some time figuring out how to make the board and the cutting of the board took an unexpected amount of time because we needed to make two sets of boards, and we have to carve the holes out for each board. 
 
 On the coding side, we were stucked on how to listen to the channel and update the board in real-time, and ended up using global variable to synchronize the two ends of the system. 
 
